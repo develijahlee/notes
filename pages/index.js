@@ -6,6 +6,9 @@ const Index = ({ notes }) => {
   return (
     <div>
       <h1>Notes</h1>
+      <Link href="/new">
+        <a>Create note</a>
+      </Link>
       <div className="grid wrapper">
         {notes.map(note => {
           return (
